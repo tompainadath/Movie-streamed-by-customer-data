@@ -10,8 +10,8 @@ array = []
 arrays_list = []
 limit = 2
 i = 0
-os.chdir('/home/tuf94311/ece_3822/Project 2')
-infile = open('dataFile1.txt','r')
+os.chdir('')  # add path to the file between ''
+infile = open('dataFile.txt','r')
 for line in infile:
     data = int(line)
     # check for the second item which is the number of movies watched
